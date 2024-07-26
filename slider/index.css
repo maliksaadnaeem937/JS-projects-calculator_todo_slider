@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(134, 120, 147);
+
+}
+
+.imageContainer{
+    height: 100%;
+    width: 100%;
+    
+
+}
+.parent-Container{
+    height: 400px;
+    width:  400px;
+    border: 2px solid black;
+    margin-inline: auto;
+    margin-top: 3rem;
+    position: relative;
+}
+img{
+    height: 100%;
+    width: 100%;
+
+}
+button{
+    position: absolute;
+    z-index: 1000;
+    
+    top: 45%;
+    
+}
+.next{
+   
+
+    right:0%;
+}
+.prev{
+
+    left: 0%;
+}
